@@ -1,0 +1,341 @@
+@import url(https://fonts.googleapis.com/css?family=Amaranth:400,400italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Bangers);
+
+.cf:before, .cf:after{content:" "; display:table;}
+.cf:after {clear:both;}
+.cf{ *zoom:1;}
+
+body{
+	background-color: #1F3036;
+	font-family: 'Amaranth', sans-serif;
+
+}
+
+
+
+
+a.thechosenOne {
+	background: black;
+	color: yellow;
+
+}
+
+
+.header
+	{
+	background: white;
+	margin-top: -25px;
+	margin-left:-25px;
+	height: 47px;
+	width: 945px;
+	font-family: 'Amaranth', sans-serif;
+	font-weight: 700;
+	border: 4px solid #3E8DAF;
+
+	}
+.nav_menu{
+	text-align: center;
+	word-spacing: 25px;
+	padding-top: 2px;
+
+}
+
+.nav_menu a{
+	text-decoration: none;
+	color: #4C4C4C;
+	font-family: 'Bangers', cursive;
+	font-size: 26px;
+	line-height: 40px;
+	
+}
+
+.nav_menu a:hover{
+	background: red;
+	color: white;
+	border-radius: 7px;
+
+}
+
+#homepage{
+	margin-left: 200px;
+	margin-top: 100px;
+}
+
+button{
+	font-size:20px;
+	margin-left: -340px;
+	margin:auto;
+}
+
+.home{
+	
+ 	width: 950px;
+    height: 150px;
+    background-image: url(../img/search_04.png);
+    background-size: 100% 100%;
+    border: 2px solid white;
+    margin: auto;
+
+}
+
+.search{
+	
+	color: #FFCC66;
+    padding: 10px;
+    position: relative;
+    top: 70px;
+    left: 627px;
+
+}
+
+#container {
+	width: 900px;
+	margin: auto;
+	background-color: #304F61;
+	padding: 25px;
+	margin-top: -2px;
+}
+
+
+.found{
+	background-color: white;
+	text-align: center;
+	padding:4px;
+	color: red;
+	border-radius: 10px;	
+	border: #3E8DAF 5px solid;
+}
+
+.found img{
+	margin-top: -42px;
+}
+.found h1{
+	font-size: 60px;
+	margin-top: -10px;
+}
+
+.found p{
+	padding-right: 20px;
+	padding-left: 20px;
+
+}
+
+.pic_container {
+	overflow: hidden;
+}
+
+.pic {
+	background-color: white;
+    text-align: center;
+    height: auto;
+    width: 45%;
+    margin: 1% 1%;
+    border-radius: 10px;
+    border: #C9BB3A 5px solid;
+}
+
+.left_pic {
+	float: left;
+}
+
+.right_pic {
+	float: right;
+}
+
+.pic p{
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.pic img {     
+	max-width: 90%;
+    height: auto;
+    padding: 9px;
+    max-height: 169px;
+    margin: auto;
+    display: block;
+}
+
+#stories{
+	background-color: white;
+	text-align: center;
+	padding:4px;
+	border-radius: 10px;
+	margin: auto;
+
+
+}
+
+#stories h1{color: red;}
+ .story{
+	width:250px;
+	float:left;
+	margin-right:38px;
+	text-align: center;
+	background-color: #4B80A6;
+	height: 400px;
+}
+.story a{
+	
+	text-decoration: none;
+	color: red;
+}
+
+.story a:hover{
+	background-color: black;
+}
+
+.story img{
+	width: 200px;
+	padding-top: 10px;
+	height: 128px;
+
+}
+.story p{
+	margin-top: -10px;
+}
+#feature{background-color: #3B77A5;
+	text-align: center;
+	padding:4px;
+	border-radius: 10px;
+
+}
+.feature{
+	background-color: white;
+	width: 350px;
+	text-align: center;
+	
+}
+
+
+#poll
+{width: 200px;
+background-color: white;
+}
+
+.contact{
+	background-color: white;
+	width: 500px;
+	margin: auto;
+	padding: 20px;
+}
+img{
+	max-width: 100%;
+}
+
+footer { 
+	background-color:#2F79A1;
+	padding: 10px;
+	text-align: center;
+	margin-top: 50px;
+	height: 40px;
+	color: white;
+
+		} 
+
+@media only screen and (min-width: 1000px){
+	
+}
+
+@media only screen and (min-width: 621px) and (max-width: 999px){
+	#container {
+	width: 700px;}
+	.header {
+	width: 740px;
+	height: 50px;
+	border: 3px solid #3E8DAF;
+	margin-top: 1px;
+	}
+	.nav_menu{
+	text-align: center;
+	word-spacing: 4px;}
+	.home{
+	
+ 	width:743px;}
+
+ 	.search{
+	 position: relative;
+    top: 60px;
+    left: 500px;
+}
+
+
+	
+}
+
+@media only screen and (max-width: 620px){
+	
+	#container {
+	width: 450px;}
+
+	.header {
+	width: 495px;
+	height: 20%;
+	border: 3px solid #3E8DAF;
+	margin-top: 1px;
+	}
+
+.nav_menu a{
+	font-size: 16px;
+	
+}
+	.nav_menu{
+	text-align: center;
+	word-spacing: 4px;
+
+	}
+
+.home{
+	
+ 	width:495px;}
+.search{
+	 position: relative;
+    top: 60px;
+    left: 200px;
+}
+
+.left_pic {
+	float: inherit;
+
+}
+
+.right_pic {
+	float: inherit;
+}
+
+.pic {
+	background-color: white;
+    text-align: center;
+    height: auto;
+    width: 97%;
+    margin: 1% 1%;
+    border-radius: 10px;
+    border: #C9BB3A 5px solid;
+}
+
+.story {
+    width: 100%;
+    /* float: left; */
+    /* margin-right: 38px; */
+    text-align: center;
+    background-color: #4B80A6;
+   	margin-bottom: 6%;
+   	height: 30%;
+   	border-radius: 3%;
+}
+
+
+
+
+
+.contact {
+ 
+    width: 90%;
+  
+}
+
+	}
+
+
+
+
