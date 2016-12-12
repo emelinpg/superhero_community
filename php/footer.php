@@ -1,2 +1,4 @@
-<h3>&copy 2016. An MLN Design.</h3>
+<footer>
+	<h4>&copy 2016. An MLN Design.</h4>
+</footer>
 	

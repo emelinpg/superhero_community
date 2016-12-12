@@ -1,4 +1,5 @@
 <?php
+
 	$nameErr = $emailErr = "";
 $name = $email = "";
 
@@ -48,57 +49,53 @@ function test_input($data) {
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="../css/style.css"/>
-			<script src="js/jquery-2.2.3.min.js"></script>
-			<script src="js/script.js"></script>
-
 	</head>
-	<body>
-	<?php echo include "header.php" ?>
-	<div id="container">
-		<div class="header">
-			<nav class="nav_menu">
-				<a href="../index.php"style="word-spacing: 2px;">About Us</a>  
-				<a href="../php/headlines.php"> Headlines</a>  
-				<a href="#"> Rankings</a> 
-				<a href="#"> Registry</a>
-				<a href="#"style="word-spacing: 2px;">Hall of Fame</a> 
-				<a href="#">Forum</a> 
-				<a href="#">Locate</a> 
-				<a class="thechosenOne"  style="color: yellow;word-spacing: 4px;" href="Contact.php">Contact</a> 
-			</nav> 
-		</div>
-		<br>
-		<div class="contact" style="color:black">
-			<h1 >Contact Us</h1>
-			<p>Feel free to contact us with any questions or comments! We will reply just as fast as <b><i>The Flash</i></b> would!</p>
-		
-			   <form method="post" action="?">  
-			   Name: <input type="text" name="name" placeholder="Alias" />
-  			   <span class="error">* <?php echo $nameErr;?></span>
-  			<br>
-  			<br>
-  				E-mail: <input type="text" name="email" placeholder="email!">
-  				<span class="error">* <?php echo $emailErr;?></span>
-  			<br>
-  			<br>
-  				Topic:<br>
-  				<select id="topic" name="topic">
-                <option value="Joining">Intrested in Joining</option>
-                <option value="Report">Report a Villian</option>
-                <option value="Other">Other</option>
-              </select>
-             <br>
-             <br>
-  				<textarea id="message" name="message" col="42" rows="9"></textarea>
-  			<br>
-  			<br>
-  
-  			<input type="submit" name="submit" value="Submit">  
+  	<body>
+    	<?php echo include "header.php" ?>
+    	<div id="container">
+        <div class="header">
+          <nav class="nav_menu">
+            <a style="word-spacing: 2px;"href="../index.php">About Us</a>  
+            <a href="headlines.php"> Headlines</a>  
+            <a href="ranking.php"> Rankings</a> 
+            <a href="register.php"> Registry</a>
+            <a href="#"style="word-spacing: 2px;">Hall of Fame</a> 
+            <a href="#">Forum</a> 
+            <a href="#">Locate</a> 
+            <a class="thechosenOne"  style="color: yellow;" href="../php/Contact.php">Contact</a> 
+            <a href="login.php">Login</a> 
+            <a href="update.php">Update</a>
+          </nav> 
+        </div>
+  		  <div class="contact" style="color:black">
+  			 <h1 >Contact Us</h1>
+  			   <p>Feel free to contact us with any questions or comments! We will reply just as fast as <b><i>The Flash</i></b> would!</p>
+              <form method="post" action="?">  
+  			          Name: <input type="text" name="name" placeholder="Alias" />
+    			        <span class="error">* <?php echo $nameErr;?></span>
+        			<br>
+        			<br>
+          				E-mail: <input type="text" name="email" placeholder="email!">
+          				<span class="error">* <?php echo $emailErr;?></span>
+        			<br>
+        			<br>
+    				      Topic:<br>
+      				      <select id="topic" name="topic">
+                    <option value="Joining">Intrested in Joining</option>
+                    <option value="Report">Report a Villian</option>
+                    <option value="Other">Other</option>
+                    </select>
+               <br>
+               <br>
+    				      <textarea id="message" name="message" col="42" rows="9"></textarea>
+        			<br>
+        			<br>
+                  <input type="submit" name="submit" value="Submit">  
 
-		</div>
-
-
-
-
-	</div>
-	<footer>
+  		    </div>
+      </div>
+         <?php include "footer.php" ?>
+         <script src="js/jquery-2.2.3.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+    </html>

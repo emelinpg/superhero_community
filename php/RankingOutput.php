@@ -28,6 +28,7 @@ $connect->close();
 <style>
 img{
 	width: 75%;
+	height: 5%;
 	border-radius: 10%;
 	border: 2px red solid;
 }
