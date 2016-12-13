@@ -1,18 +1,11 @@
 # Superhero Community
 ### Synopsis
-This was my first phone app I created. It was a challange but fun creating it. This was my frist time using API’s and an accordian for the entire website.
-
-![PtHhE3](http://i.makeagif.com/media/12-12-2016/PtHhE3.gif)
-
+I created this responsive web site using both front-end and back-end development. The reason why the website was created was to make an online community where real life superheroes could communicate with each other.
 ___
 ### Motivation
-I was motivated to create a website where you can find people that are intrested in the same things you are! This website will make it easier for people to explore all the pop culture news, find new friends, and even find local stores or upcoming events around your location!
-
+I was inspired to create a superhero community after watching an anime. I thought it would be a cool idea to create a website were real life super heroes could see what's going on locally and worldwide, see their rankings side by side with other heroes and even contact each other. 
 ___
 ### API Reference
-I wanted users to be able to find local events, comic book stors or upcommig events around them, this is why I decided to use the [Google Map API](https://developers.google.com/maps/documentation/javascript/adding-a-google-map). Also under the cool featured tab I used the [l33t sp34k](https://market.mashape.com/montanaflynn/l33t-sp34k).
-as a translator to make the user sound cool!
-
 ___
 ### Contributors
 1. Create a new branch `git branch *your branch name*`
