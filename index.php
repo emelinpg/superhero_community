@@ -12,7 +12,7 @@ require_once 'php/cookie_login.php';
 	</style>
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="css/style.css"/>
+		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
 		<?php include "php/header.php" ?>
